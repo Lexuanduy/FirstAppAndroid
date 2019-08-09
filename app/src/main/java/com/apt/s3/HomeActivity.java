@@ -11,6 +11,7 @@ import android.widget.TextView;
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnHome;
     TextView tvHome;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +33,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.idHome:
                 goToMain();
                 break;
-                default: break;
+            default:
+                break;
         }
     }
 
